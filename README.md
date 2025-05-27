@@ -1,0 +1,23 @@
+Zadanie polega na napisaniu API aplikacji do zarządzania biblioteką, która będzie umożliwiać użytkownikom dodawanie, przeglądanie i edycję książek. Aplikacja powinna korzystać z REST API, aby pobierać i wysyłać dane do bazy. Jednocześnie, aplikacja musi uwzględniać aspekty związane z bezpieczeństwem danych.
+
+Aplikacja powinna mieć następujące funkcjonalności:
+
+- Pobieranie listy książek z bazy danych.
+
+- Dodawanie nowych książek do bazy danych.
+
+- Edycja istniejących książek w bazie danych.
+
+- Usuwanie książek z bazy danych.
+
+Dodatkowo, aplikacja musi uwzględniać następujące aspekty związane z bezpieczeństwem:
+
+- Autoryzacja użytkowników przy użyciu tokenów JWT.
+
+- Haszowanie haseł użytkowników przed zapisaniem ich w bazie danych.
+
+- Zabezpieczenie endpointów aplikacji przed atakami typu SQL Injection.
+
+Do realizacji zadania można wykorzystać framework Spring Boot oraz relacyjną bazę danych. W projekcie powinny być użyte również narzędzia do testowania, takie jak JUnit oraz biblioteki do obsługi REST API, takie jak RestTemplate.
+
+Podczas rozwiązywania zadania należy zwrócić uwagę na poprawność implementacji, bezpieczeństwo danych oraz jakość kodu. Kandydat powinien również zadbać o czytelność kodu oraz odpowiednie podzielenie aplikacji na moduły.
